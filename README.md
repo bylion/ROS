@@ -1,3 +1,9 @@
+this is readme is for ros command
+
+installtion is for project 
+
+
+=====================
 ROS
 ===
 
