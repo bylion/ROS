@@ -1,0 +1,1 @@
+rostopic pub /turtlesim1/turtle1/cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -1.8]'

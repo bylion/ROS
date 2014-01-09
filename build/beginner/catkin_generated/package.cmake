@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "beginner")
+set(beginner_MAINTAINER "ubuntu <ubuntu@todo.todo>")
+set(beginner_DEPRECATED "")
+set(beginner_VERSION "0.0.0")
+set(beginner_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "message_generation")
+set(beginner_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "message_runtime")
+set(beginner_BUILDTOOL_DEPENDS "catkin")

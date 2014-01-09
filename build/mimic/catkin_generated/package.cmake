@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mimic")
+set(mimic_MAINTAINER "bai <bai@todo.todo>")
+set(mimic_DEPRECATED "")
+set(mimic_VERSION "0.0.0")
+set(mimic_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "std_srvs")
+set(mimic_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "std_srvs")
+set(mimic_BUILDTOOL_DEPENDS "catkin")

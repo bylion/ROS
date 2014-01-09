@@ -1,0 +1,9 @@
+fixed_frame: '/openni_depth_frame'
+
+right_hand: '/left_hand'
+
+left_hand: '/right_hand'
+
+move_range: 0.2
+
+rotation_range : 0.2

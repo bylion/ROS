@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ros_bai")
+set(ros_bai_MAINTAINER "bai <bai@todo.todo>")
+set(ros_bai_DEPRECATED "")
+set(ros_bai_VERSION "0.0.0")
+set(ros_bai_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(ros_bai_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(ros_bai_BUILDTOOL_DEPENDS "catkin")

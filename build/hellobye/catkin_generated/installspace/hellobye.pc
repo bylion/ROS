@@ -1,0 +1,8 @@
+prefix=/home/bai/catkin_ws/install
+
+Name: hellobye
+Description: Description of hellobye
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/bai/catkin_ws/install/lib 
+Requires: 

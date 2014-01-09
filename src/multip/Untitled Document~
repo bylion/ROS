@@ -1,0 +1,2 @@
+rosservice call spawn 5 5 0.2 "turtle4"
+

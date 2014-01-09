@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "multip")
+set(multip_MAINTAINER "bai <bai@todo.todo>")
+set(multip_DEPRECATED "")
+set(multip_VERSION "0.0.0")
+set(multip_BUILD_DEPENDS "catkin_create" "roscpp" "rospy" "std_msgs" "std_srvs")
+set(multip_RUN_DEPENDS "catkin_create" "roscpp" "rospy" "std_msgs" "std_srvs")
+set(multip_BUILDTOOL_DEPENDS "catkin")

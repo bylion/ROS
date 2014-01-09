@@ -1,0 +1,19 @@
+<launch>
+    <!-- Openni_Tracker Node-->
+
+    <node pkg="openni_tracker" name="openni_tracker" type="openni_tracker" output="screen">
+        <param name="fixed_frame" value="openni_depth_frame" />
+    </node>
+
+    <!-- Turtlesim Node-->
+    <node pkg="turtlesim" type="turtlesim_node" name="sim"/>
+    <node pkg="turtle_kinect" type="turtle_controller.py" name="controller" />
+
+    <node name="turtle1_tf_broadcaster" pkg="turtle_kinect" type="turtle_tf_broadcaster.py" respawn="false" output="screen" >
+      <param name="turtle" type="string" value="turtle1" />
+    </node>
+    
+    <node name="turtle2_tf_broadcaster" pkg="turtle_kinect" type="turtle_tf_broadcaster.py" respawn="false" output="screen" >
+      <param name="turtle" type="string" value="turtle2" />
+    </node>
+</launch>

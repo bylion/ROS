@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "turtle_kinect")
+set(turtle_kinect_MAINTAINER "vupham <vupham@todo.todo>")
+set(turtle_kinect_DEPRECATED "")
+set(turtle_kinect_VERSION "0.0.0")
+set(turtle_kinect_BUILD_DEPENDS "rospy" "tf" "message_generation" "turtlesim" "geometry_msgs" "std_msgs")
+set(turtle_kinect_RUN_DEPENDS "rospy" "tf" "turtlesim" "geometry_msgs" "message_runtime" "std_msgs")
+set(turtle_kinect_BUILDTOOL_DEPENDS "catkin")

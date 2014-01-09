@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "move_turtle")
+set(move_turtle_MAINTAINER "vupham <vupham@todo.todo>")
+set(move_turtle_DEPRECATED "")
+set(move_turtle_VERSION "0.0.0")
+set(move_turtle_BUILD_DEPENDS "rospy" "tf" "message_generation" "turtlesim" "geometry_msgs" "std_msgs")
+set(move_turtle_RUN_DEPENDS "rospy" "tf" "turtlesim" "geometry_msgs" "message_runtime" "std_msgs")
+set(move_turtle_BUILDTOOL_DEPENDS "catkin")

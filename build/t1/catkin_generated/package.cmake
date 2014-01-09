@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "t1")
+set(t1_MAINTAINER "bai <bai@todo.todo>")
+set(t1_DEPRECATED "")
+set(t1_VERSION "0.0.0")
+set(t1_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "message_generation")
+set(t1_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "message_runtime")
+set(t1_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/bai/catkin_ws/install
+
+Name: t1
+Description: Description of t1
+Version: 0.0.0
+Cflags: -I/home/bai/catkin_ws/install/include
+Libs: -L/home/bai/catkin_ws/install/lib 
+Requires: 
